@@ -1,5 +1,5 @@
-name: Docker Compose Exercise
-run-name: ${{ github.actor }} run 3 containers at same time
+name: JS Docker Containers with Docker Compose
+run-name: ${{ github.actor }} runs three containers with docker compose
 on: [push]
 jobs:
   build:
