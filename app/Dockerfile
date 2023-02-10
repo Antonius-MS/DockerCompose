@@ -7,5 +7,5 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 8087/tcp
+EXPOSE 8088/tcp
 CMD ["node", "server.js"]
